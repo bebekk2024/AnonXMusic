@@ -1,7 +1,7 @@
 {
-    "name": "ɴᴛ ᴍᴜsɪᴄ ꝛσʙσᴛ",
+    "name": "ᴍɪᴅɴɪɢʜᴛ ᴍᴜsɪᴄ ꝛσʙσᴛ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/b87a43a56db9f6e7e3835.jpg",
+    "logo": "https://graph.org/file/d4a48966b197e7292681a.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -25,12 +25,12 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6807300223:AAH9nG5Lzj27fR9mXPTLS0OYBY3qd7m_U3I",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://kansya:1234@cluster0.pz6wrfk.mongodb.net/?retryWrites=true&w=majority",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
@@ -45,7 +45,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "a21794af-7e77-40e0-8fb5-958f2735bd93",
+        "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
