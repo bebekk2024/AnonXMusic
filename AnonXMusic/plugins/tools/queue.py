@@ -156,7 +156,7 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
     basic[videoid] = False
     buttons = queue_back_markup(_, what)
     med = InputMediaPhoto(
-        media="https://graph.org/file/5d141cc6ee9d131830dea.jpg",
+        media="https://graph.org/file/d4a48966b197e7292681a.jpg",
         caption=_["queue_1"],
     )
     await CallbackQuery.edit_message_media(media=med)
