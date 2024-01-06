@@ -26,7 +26,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_5"], user_id=6238584665),
-            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/Berlinmusic_suppirt"),
+            InlineKeyboardButton(text=_["S_B_2"], url=f"https://t.me/Berlinmusic_support"),
         ],
         [
             InlineKeyboardButton(text=_["S_B_6"], url=f"https://t.me/envynitysex"),
