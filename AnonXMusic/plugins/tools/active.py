@@ -12,7 +12,7 @@ from AnonXMusic.utils.database import (
 )
 
 
-@app.on_message(filters.command(["vc", "active"]) & SUDOERS)
+@app.on_message(filters.command(["activevn", "active"]) & SUDOERS)
 async def activevc(_, message: Message):
     mystic = await message.reply_text("» ᴍᴇɴɢᴀᴍʙɪʟ ᴅᴀᴛᴀ ʏᴀɴɢ ᴘᴀᴋᴇ ʙᴏᴛ ʟᴜ...")
     served_chats = await get_active_chats()
