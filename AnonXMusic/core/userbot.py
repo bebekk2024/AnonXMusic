@@ -11,35 +11,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="BerlinXAss1",
+            name="envynityXAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="BerlinXAss2",
+            name="envynityXAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="BerlinXAss3",
+            name="envynityXAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="BerlinXAss4",
+            name="envynityXAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="BerlinXAss5",
+            name="envynityXAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -47,17 +47,17 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"Starting Assistants Midnight...")
+        LOGGER(__name__).info(f"Starting Assistants envynity...")
         if config.STRING1:
             await self.one.start()
             try:
                 await self.one.join_chat("Berlinmusic_support")
-                await self.one.join_chat("Areamidnight")
+                await self.one.join_chat("envynitysex")
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "Assistant Midnight Started")
+                await self.one.send_message(config.LOGGER_ID, "Assistant envynity Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 1 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!"
@@ -73,12 +73,12 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("Berlinmusic_support")
-                await self.two.join_chat("Areamidnight")
+                await self.two.join_chat("envynitysex")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "Assistant Midnight Started")
+                await self.two.send_message(config.LOGGER_ID, "Assistant envynity Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 2 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!"
@@ -94,12 +94,12 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("Berlinmusic_support")
-                await self.three.join_chat("Areamidnight")
+                await self.three.join_chat("envynitysex")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "Assistant Midnight Started")
+                await self.three.send_message(config.LOGGER_ID, "Assistant envynity Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 3 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
@@ -115,7 +115,7 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("Berlinmusic_support")
-                await self.four.join_chat("Areamidnight")
+                await self.four.join_chat("envynitysex")
             except:
                 pass
             assistants.append(4)
@@ -136,12 +136,12 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("Berlinmusic_support")
-                await self.five.join_chat("Areamidnight")
+                await self.five.join_chat("envynitysex")
             except:
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "Assistant Midnight Started")
+                await self.five.send_message(config.LOGGER_ID, "Assistant envynity Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 5 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
