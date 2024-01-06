@@ -1,7 +1,7 @@
 {
-    "name": "ᴍɪᴅɴɪɢʜᴛ ᴍᴜsɪᴄ ꝛσʙσᴛ",
+    "name": "ᴇɴᴠɪɴɪᴛʏ ᴍᴜsɪᴄ ꝛσʙσᴛ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/d4a48966b197e7292681a.jpg",
+    "logo": "https://graph.org/file/09598b49de61d19475b9a.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -25,7 +25,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "6807300223:AAH9nG5Lzj27fR9mXPTLS0OYBY3qd7m_U3I",
+        "value": "6301557591:AAGhCG-KGi6NMcHJfgDQzmuzP5SdR7sWmhQ",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -35,7 +35,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6024180996",
+        "value": "6238584665",
         "required": true
       },
       "STRING_SESSION": {
