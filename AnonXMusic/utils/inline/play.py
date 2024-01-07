@@ -60,7 +60,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="✫ ꜱᴛᴏʀᴇ ✫", url=f"https://t.me/Disney_storeDan"),
         ],
         [
-            InlineKeyboardButton(text= "✫ ꜱᴜᴘᴘᴏʀᴛ ✫", url=f"https://t.me/musicsupport_dan"),
+            InlineKeyboardButton(text= "✫ ꜱᴜᴘᴘᴏʀᴛ ✫", url=f"https://t.me/musicsupportdan"),
         ],
     ]
     return buttons
@@ -73,7 +73,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="✫ ꜱᴛᴏʀᴇ ✫", url=f"https://t.me/Disney_storeDan"),
         ],
         [
-            InlineKeyboardButton(text= "✫ ꜱᴜᴘᴘᴏʀᴛ ✫", url=f"https://t.me/musicsupport_dan"),
+            InlineKeyboardButton(text= "✫ ꜱᴜᴘᴘᴏʀᴛ ✫", url=f"https://t.me/musicsupportdan"),
         ],
     ]
     return buttons
