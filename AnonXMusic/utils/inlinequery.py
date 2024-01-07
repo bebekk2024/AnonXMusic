@@ -37,7 +37,7 @@ answer.extend(
         InlineQueryResultArticle(
             title="Lᴏᴏᴩ",
             description="ᴅᴀʜ ɢᴡ ʟᴏᴏᴘ ʏᴀ ᴍᴇᴋ sᴛʀᴇᴀᴍ ɴʏᴀ.",
-            thumb_url="https://telegra.ph//file/ce83f87bc1ea1c3510ae2.jpg",
+            thumb_url="https://telegra.ph//file/cc3e25abe2c92af4e784c.jpg",
             input_message_content=InputTextMessageContent("/loop 3"),
         ),
     ]
