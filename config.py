@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Muhamadwildan018/AnonXMusic",
+    "https://github.com/Wildan2023/AnonXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -78,16 +78,16 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph//file/cc3e25abe2c92af4e784c.jpg"
+    "START_IMG_URL", "https://telegra.ph//file/c341a83ee4a8242b1ad45.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph//file/cc3e25abe2c92af4e784c.jpg"
+    "PING_IMG_URL", "https://telegra.ph//file/c341a83ee4a8242b1ad45.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph//file/ce83f87bc1ea1c3510ae2.jpg"
-STATS_IMG_URL = "https://telegra.ph//file/cc3e25abe2c92af4e784c.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph//file/c341a83ee4a8242b1ad45.jpg"
+STATS_IMG_URL = "https://telegra.ph//file/c341a83ee4a8242b1ad45.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph//file/ce83f87bc1ea1c3510ae2.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph//file/ce83f87bc1ea1c3510ae2.jpg"
-STREAM_IMG_URL = "https://telegra.ph//file/ce83f87bc1ea1c3510ae2.jpg"
+STREAM_IMG_URL = "https://telegra.ph//file/c341a83ee4a8242b1ad45.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph//file/ce83f87bc1ea1c3510ae2.jpg"
 YOUTUBE_IMG_URL = "https://telegra.ph//file/ce83f87bc1ea1c3510ae2.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/ce83f87bc1ea1c3510ae2.jpg"
