@@ -33,12 +33,12 @@ class Anony(Client):
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
-                "nt gagal acces log group/channel. Lu tambahin dulu gw ke log group/channel lu."
+                "great gagal acces log group/channel. Lu tambahin dulu gw ke log group/channel lu."
             )
             exit()
         except Exception as ex:
             LOGGER(__name__).error(
-                f"nt gagal acces log group/channel.\n  Reason : {type(ex).__name__}."
+                f"great gagal acces log group/channel.\n  Reason : {type(ex).__name__}."
             )
             exit()
 
