@@ -99,7 +99,7 @@ class Userbot(Client):
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "Assistant envynity Started")
+                await self.three.send_message(config.LOGGER_ID, "Assistant great Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Akun 3 Gagal Akses Ke Log groups/channel. Tambahin dulu akun assistant lu ke log groups terus lu adminin mek!! "
